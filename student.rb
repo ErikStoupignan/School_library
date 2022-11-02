@@ -11,6 +11,6 @@ class Students < Person
   end
 end
 
-student = Students.new(26, 'Firts', 'Erik', true)
+student = Students.new(26, 'Firts', 'Erik')
 p student
 student.play_hooky
