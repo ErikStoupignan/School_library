@@ -1,4 +1,4 @@
-require_relative './nameable'
+require './nameable'
 
 class Person < Nameable
   def initialize(age, name = 'Unknow', parent_permission: true)
