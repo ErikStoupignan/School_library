@@ -33,22 +33,22 @@ rental_two = Rental.new('2022-12-09', add_book_two, person_two)
 rental_three = Rental.new('2022-09-13', add_book_three, person_three)
 
 puts(rental_one.person.rentals.map do |rentals|
-  "Rental 1\nPerson: #{rentals.person.name} | Rented book: #{rentals.book.title} by #{rentals.book.author}" \
-    " | Date: #{rentals.date}"
+  "Rental 1\nPerson: #{rentals.person.name} | Rented book: #{rentals.book.title} by #{rentals.book.author} " \
+    "| Date: #{rentals.date}"
 end)
 
 puts "\n"
 
 puts(rental_two.book.rentals.map do |rentals|
-  "Rental 2\nPerson: #{rentals.person.name} | Rented book: #{rentals.book.title} by #{rentals.book.author}" \
-    " | Date: #{rentals.date}"
+  "Rental 2\nPerson: #{rentals.person.name} | Rented book: #{rentals.book.title} by #{rentals.book.author} " \
+    "| Date: #{rentals.date}"
 end)
 
 puts "\n"
 
 puts(rental_three.book.rentals.map do |rentals|
-  "Rental 3\nPerson: #{rentals.person.name} | Rented book: #{rentals.book.title} by #{rentals.book.author}" \
-    " | Date: #{rentals.date}"
+  "Rental 3\nPerson: #{rentals.person.name} | Rented book: #{rentals.book.title} by #{rentals.book.author} " \
+    "| Date: #{rentals.date}"
 end)
 
 puts "\n\n"
